@@ -84,7 +84,7 @@
         "url": "https://github.com/chrisguttandin/midi-json-parser-worker.git"
     },
     "scripts": {
-        "prepublishOnly": "grunt build",
+        "prepare": "grunt build",
         "test": "grunt lint && grunt test"
     },
     "types": "build/es2019/module.d.ts",
